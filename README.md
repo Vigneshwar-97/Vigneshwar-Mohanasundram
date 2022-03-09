@@ -3,46 +3,53 @@
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Problem statement
+* Analysis approach
+* Insights
 
 <!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+## Problem statement
+- The finance association which provides various types of loans to different clients When the party 
+accepts a loan application
+- the party has to resolve for loan authorization established the # 
+claimant’s profile
+- Two types of risks are guide the bank’s conclusion
+◦ If the seeker is inclined compensate the loan, before not approving the loan results in a misfortune of 
+trade to the association
+◦ If the candidate is with difficulty to restore the loan, i.e. he/she is inclined default, before authorizing the 
+loan concede possibility bring about a financial misfortune for the guest.
+◦ The applicant likely beneath holds the information about past loan claimants and either they ‘defaulted’ a 
+suggestion of correction.
+◦ The aim search out recognize patterns which display if one is inclined default, that grant permission be 
+secondhand for taking # conduct to a degree declining the loan, lowering the amount of loan, loaning (to 
+dangerous applicants) at a bigger interest, etc
+- loan.csv is the dataset which we used in this case study.
+
+## Analysis approach.
+
+- Examine the values to check whether the type assigned is suitable for analysis, if not convert it accordingly 
+based on input criteria.
+- Analyse the whole data check for null value rows and look for any deprecation in actual data.
+- Filter out null or invalid column which are not much helpful for analysis.
+- Remove inappropriate columns and rows which diverts the analysis.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Insights
+- Using univarient analysis, Annual income is plotted using box plot, It has been identified with outliers.These values can 
+tilt our analysis and often provide us with a biased perspective of the data available.
+- In bivarient analysis, Using linechart with variables purpose and charge off ratio we could clearly see 
+small_business takes up high chargedoff ratio. It is highly risk to provide loan to 
+small_business.
+- In multivarient analysis, on seeing heat map it is clear that whenever the loan amount is higher then number of installment is also in propotion.
+•pub_rec is directly propotional to pub_rec_bankruptcies with corr value of 0.84, if public record is higher then risk of 
+defaulters will also be higher.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@Vigneshwar-97] - feel free to contact me!
 
 
 <!-- Optional -->
